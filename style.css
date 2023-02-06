@@ -1,0 +1,93 @@
+body {
+    background-image: url(https://i.ibb.co/9t0nNtj/Frog-Background.jpg);
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: #0f0e0e;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 3em;
+    text-shadow: 2px 2px 5px #5d5d5d;
+    margin-top: 30px;
+  }
+  
+  header nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  header nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  header nav li {
+    margin: 0 10px;
+    font-size: 1.2em;
+    text-shadow: 2px 2px 5px #5d5d5d;
+  }
+  
+  header nav a {
+    color: #0f0e0e;
+    text-decoration: none;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0;
+  }
+  
+  main h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 5px #5d5d5d;
+  }
+  
+  main p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 5px #5d5d5d;
+  }
+  
+  #home {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #5d5d5d;
+  }
+  
+  #cool-pictures {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #5d5d5d;
+    margin-top: 50px;
+  }
+  
+  #cool-pictures img {
+    width: 300px;
+    height: 200px;
+    margin: 30px;
+    animation: jump 1s ease-in-out infinite alternate;
+  }
+  
+  @keyframes jump {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-20px);
+    }
+  }
+  
+  footer {
+    margin-top: 50px;
+    font-size: 0.8em;
+    text-shadow: 2px 2px 5px #5d5d5d;
+  }
